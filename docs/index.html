@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JotPad – Legal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.6;
+      color: #333;
+      background: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+      color: #222;
+    }
+    .links {
+      margin-top: 30px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .links a {
+      display: block;
+      margin: 10px 0;
+      font-size: 18px;
+      text-decoration: none;
+      color: #0066cc;
+    }
+    .links a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>JotPad Legal Documents</h1>
+  <p>Here you can find important legal documents related to the JotPad PWA and Chrome Extension.</p>
+
+  <div class="links">
+    <a href="./privacy-policy.md">📜 Privacy Policy</a>
+    <a href="./terms-and-conditions.md">⚖️ Terms & Conditions</a>
+  </div>
+
+  <footer>
+    &copy; <span id="year"></span> JotPad. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
